@@ -2,11 +2,14 @@ import React from "react";
 import { useGLTF } from "@react-three/drei";
 
 export const ComputerModel = () => {
-  const computer = useGLTF("./kentaur/scene.gltf");
+  const computer = useGLTF(
+    // "./mcfarlanes_dragons__eternal_clan_wo_wings/scene.gltf"
+    "./kentaur/scene.gltf"
+  );
 
   return (
     <mesh>
-      <hemisphereLight intensity={1.15} groundColor="black" />
+      <hemisphereLight intensity={0} groundColor="black" />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}

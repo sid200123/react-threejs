@@ -10,6 +10,7 @@ const ComputersCanvas = ({ children }) => {
       shadows
       dpr={[1, 2]}
       camera={{ position: [-2.8, 1.5, -5.5], fov: 50 }}
+      // camera={{ position: [0.2, 0.1, 1.3], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
