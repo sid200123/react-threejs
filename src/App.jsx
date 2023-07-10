@@ -10,7 +10,10 @@ function App() {
         display: "flex",
         width: "100vw",
         height: "100vh",
-        backgroundColor: "transparent",
+        // backgroundColor: "transparent",
+        backgroundImage: `url(https://images.pexels.com/photos/2114014/pexels-photo-2114014.jpeg?auto=compress&cs=tinysrgb&w=1200)`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize:"cover"
       }}
     >
       <div

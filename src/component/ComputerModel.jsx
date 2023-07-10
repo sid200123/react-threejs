@@ -4,7 +4,7 @@ import { useGLTF } from "@react-three/drei";
 export const ComputerModel = () => {
   const computer = useGLTF(
     // "./mcfarlanes_dragons__eternal_clan_wo_wings/scene.gltf"
-    "./kentaur/scene.gltf"
+    "./fantasy_nordic_axe/scene.gltf"
   );
 
   return (
@@ -21,7 +21,7 @@ export const ComputerModel = () => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={0.5}
+        scale={0.3}
         position={[0, -3.25, -1.5]}
       />
     </mesh>
